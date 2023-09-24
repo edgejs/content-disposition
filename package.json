@@ -10,7 +10,7 @@
     "rfc6266",
     "res"
   ],
-  "repository": "jshttp/content-disposition",
+  "repository": "edgejs/content-disposition",
   "dependencies": {
     "safe-buffer": "5.2.1"
   },
