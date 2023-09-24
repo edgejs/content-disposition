@@ -19,8 +19,8 @@ module.exports.parse = parse
  * @private
  */
 
-var basename = require('path').basename
-var Buffer = require('safe-buffer').Buffer
+var basename = require('node:path').basename
+var Buffer = require('node:buffer').Buffer
 
 /**
  * RegExp to match non attr-char, *after* encodeURIComponent (i.e. not including "%")
